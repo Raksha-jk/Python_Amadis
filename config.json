@@ -1,0 +1,72 @@
+[
+    {
+        "model_name": "ResNet50",
+        "hyperparameters": {
+            "learning_rate": 0.001,
+            "batch_size": 32,
+            "epochs": 10
+        },
+        "accuracy": 0.92,
+        "runtime": 45.6
+    },
+    {
+        "model_name": "VGG16",
+        "hyperparameters": {
+            "learning_rate": 0.0005,
+            "batch_size": 64,
+            "epochs": 15
+        },
+        "accuracy": 0.88,
+        "runtime": 60.2
+    },
+    {
+        "model_name": "InceptionV3",
+        "hyperparameters": {
+            "learning_rate": 0.0008,
+            "batch_size": 16,
+            "epochs": 12
+        },
+        "accuracy": 0.94,
+        "runtime": 52.8
+    },
+    {
+        "model_name": "MobileNetV2",
+        "hyperparameters": {
+            "learning_rate": 0.002,
+            "batch_size": 128,
+            "epochs": 8
+        },
+        "accuracy": 0.89,
+        "runtime": 40.3
+    },
+    {
+        "model_name": "DenseNet121",
+        "hyperparameters": {
+            "learning_rate": 0.0015,
+            "batch_size": 32,
+            "epochs": 20
+        },
+        "accuracy": 0.91,
+        "runtime": 70.1
+    },
+    {
+        "model_name": "EfficientNetB0",
+        "hyperparameters": {
+            "learning_rate": 0.0012,
+            "batch_size": 64,
+            "epochs": 18
+        },
+        "accuracy": 0.93,
+        "runtime": 55.4
+    },
+    {
+        "model_name": "Xception",
+        "hyperparameters": {
+            "learning_rate": 0.0006,
+            "batch_size": 16,
+            "epochs": 14
+        },
+        "accuracy": 0.90,
+        "runtime": 65.7
+    }
+]
